@@ -1,0 +1,35 @@
+{
+  "name": "typescript-webpack-karma-mocha-chai",
+  "version": "1.0.0",
+  "description": "Boiler plate for a project built with TypeScript, Webpack, Karma, Mocha and Chai",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "karma",
+    "mocha",
+    "chai"
+  ],
+  "author": "Seth McLaughlin",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "3.4.1",
+    "karma": "0.13.18",
+    "karma-chai": "0.1.0",
+    "karma-mocha": "0.2.1",
+    "karma-sourcemap-loader": "0.3.6",
+    "karma-webpack": "1.7.0",
+    "mocha": "2.3.4",
+    "ts-loader": "0.7.2",
+    "tsd": "0.6.5",
+    "typescript": "1.7.5",
+    "webpack": "1.12.9"
+  },
+  "devDependencies": {
+    "karma-phantomjs-launcher": "^0.2.3",
+    "phantomjs": "^1.9.19"
+  }
+}
