@@ -1,6 +1,6 @@
 import * as utils from '../utils';
 
-export default class Goodbye { 
+export class Goodbye { 
     speak() {
         utils.print('Goodbye');
     }

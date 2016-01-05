@@ -1,3 +1,4 @@
-export { default as Exclaim } from './Exclaim';
-export { default as Goodbye } from './Goodbye';
-export { default as Hello } from './Hello';
+import { Exclaim } from './Exclaim';
+export { Exclaim };
+export { Goodbye } from './Goodbye';
+export { Hello } from './Hello';
