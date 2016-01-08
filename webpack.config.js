@@ -1,6 +1,4 @@
 module.exports = {
-    entry: './src/index.ts',
-
     output: {
         filename: 'build/bundle.js'
     },
