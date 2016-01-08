@@ -46,24 +46,6 @@ module.exports = function(config) {
             'src/**/*.ts': ['webpack', 'sourcemap']
         },
 
-        // typescriptPreprocessor: {
-        //     options: {
-        //         sourceMap: true,
-        //         noResolve: false,
-        //         target: 'es6',
-        //         module: 'commonjs'
-        //     },
-
-        //     typings: [
-        //         'typings/tsd.d.ts'
-        //     ],
-
-        //     transformPath: function (path) {
-        //         return path.replace(/\.ts$/, '.js');
-        //     }
-
-        // },
-
 
         // test results reporter to use
         // possible values: 'dots', 'progress'
@@ -100,5 +82,5 @@ module.exports = function(config) {
         // Concurrency level
         // how many browser should be started simultaneous
         concurrency: Infinity
-    })
-}
+    });
+};
